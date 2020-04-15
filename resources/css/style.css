@@ -15,12 +15,14 @@ Darker shade: #cf6d17
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', Arial, sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -328,7 +330,7 @@ header {
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
-    display: inline-block;
+    display: block;
     border-radius: 50%;
     width: 55px;
     height: 55px;
